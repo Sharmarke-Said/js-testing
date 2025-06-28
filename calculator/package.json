@@ -1,0 +1,20 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "main": "Calculator.js",
+  "scripts": {
+    "start": "serve",
+    "cy:open": "cypress open",
+    "test": "start-server-and-test start http://localhost:3000 cy:open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.5.0",
+    "serve": "^14.2.4",
+    "start-server-and-test": "^2.0.12"
+  }
+}
